@@ -1,3 +1,3 @@
 class Album < ApplicationRecord
-	belongs_to :users
+	has_many :top_albums
 end
