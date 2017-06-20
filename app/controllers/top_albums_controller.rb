@@ -1,0 +1,2 @@
+class TopAlbumsController < ApplicationController
+end
