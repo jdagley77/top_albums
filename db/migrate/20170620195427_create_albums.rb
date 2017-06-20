@@ -1,6 +1,9 @@
 class CreateAlbums < ActiveRecord::Migration[5.0]
   def change
     create_table :albums do |t|
+    	t.string :artist
+    	t.string :title
+    	t.string :image_url
 
       t.timestamps
     end
